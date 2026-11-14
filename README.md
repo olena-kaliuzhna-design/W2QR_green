@@ -53,6 +53,10 @@ This is a **design prototype** in plain HTML, CSS and JS. There is no build step
 
 On every page there is a **Master Key** button in the bottom-right corner. It also opens with `Ctrl+0`.
 
+## This is the flat version
+
+All files sit in the repository root (no `assets/` folder), so they can be uploaded to GitHub by drag-and-drop. The `content/` sources and `build.py` are only in the full version (`w2qr-v2-site.zip`).
+
 ## Content pages (generated)
 
 Terms, Privacy, FAQ, Docs, White Paper and the other text pages are generated from `content/*.html` by `build.py`. Their copy was taken word for word from the live site in November 2026.
