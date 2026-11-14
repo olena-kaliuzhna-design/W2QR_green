@@ -325,3 +325,8 @@ button { cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
+
+/* Official logo in the header */
+.logo-pill { padding: 10px 18px 10px 14px; }
+.logo-pill .logo-full { height: 26px; width: auto; display: block; color: var(--ink); }
+@media (max-width: 480px) { .logo-pill .logo-full { height: 22px; } }

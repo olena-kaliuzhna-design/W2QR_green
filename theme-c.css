@@ -106,8 +106,6 @@ body { background: var(--bg); color: var(--ink); }
   background: var(--panel); border: 0; backdrop-filter: none; color: var(--ink);
   font-family: var(--display); font-weight: 800; letter-spacing: -0.04em;
 }
-.logo-mark rect:nth-child(-n+4) { fill: var(--lime); }
-.logo-mark rect:nth-child(n+5) { fill: #121212; }
 .nav-icon { background: var(--panel); border: 0; color: var(--ink); backdrop-filter: none; }
 .nav-icon:hover { background: var(--card-2); }
 .nav-icon[aria-current="page"] { background: var(--lime); color: #121212; }
@@ -192,9 +190,7 @@ body { background: var(--bg); color: var(--ink); }
 .w2card__face { background: radial-gradient(120% 120% at 100% 0%, #2c3312 0%, #161616 45%, #0b0b0b 100%); border-color: #2b2b2b; box-shadow: 0 24px 50px rgba(0,0,0,.35); }
 .w2card__face::after { background: radial-gradient(closest-side, rgba(217, 242, 106, .28), transparent); }
 .w2card__code { color: var(--lime); }
-.w2card__face .logo-mark rect:nth-child(-n+4) { fill: var(--lime); }
-.w2card__face .logo-mark rect:nth-child(n+5) { fill: #121212; }
-
+.w2card__face .w2card__face 
 /* ---------- Content pages (docs.css) ---------- */
 .prose { color: var(--soft); }
 .prose a:not(.btn):not(.tile) { color: var(--ink); text-decoration-color: var(--lime); text-decoration-thickness: 2px; }
